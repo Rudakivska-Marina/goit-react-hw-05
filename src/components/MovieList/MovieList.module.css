@@ -1,0 +1,36 @@
+.list {
+  box-sizing: border-box;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(136, 0, 0);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: left;
+  padding-left: 30px;
+}
+
+.item {
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+}
+
+.text {
+  text-align: left;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text:hover {
+  color: rgb(0, 0, 0);
+}

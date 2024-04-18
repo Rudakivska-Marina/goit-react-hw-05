@@ -1,0 +1,9 @@
+.text {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+}

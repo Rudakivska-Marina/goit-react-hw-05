@@ -1,0 +1,38 @@
+.image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 20px;
+  padding: 20px;
+  margin: 0;
+  justify-content: center;
+  background-color: rgb(131, 5, 5);
+  border-radius: 8px;
+}
+
+.item {
+  width: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: normal;
+}
+
+.box {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
